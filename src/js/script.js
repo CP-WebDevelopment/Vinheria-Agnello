@@ -29,7 +29,6 @@ if (qtd_vinho==""){
     var qtd_vinho= prompt("Digite a quantidade do vinho: ");
 }
 if (qtd_vinho<5){ //SE FOR MENOR QUE 5 EXIBIR O ALERT
-    alert("Estoque baixo");
     console.log("Estoque do vinho: ",qtd_vinho, "- Estoque baixo")
 }
 else{
@@ -39,7 +38,7 @@ alert("Cadastro realizado! Veja as informações e confira a classificação no 
 
 //CLASSIFICAÇÃO DA SAFRA
 if (safra_vinho>=2020){
-    console.log("Safra vinho: ",safra_vinho,"Vinho jovem")
+    console.log("Safra vinho: ",safra_vinho,"- Vinho jovem")
 }
 else if ((safra_vinho>=2015) && (safra_vinho<= 2019)){
     console.log("Safra vinho: ",safra_vinho,"Vinho amadurecido")
