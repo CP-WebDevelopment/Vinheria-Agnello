@@ -14,7 +14,7 @@ https://cp1webdevelopment.github.io/Vinheria-Agnello/
 
 ## Passo 2 ✨: Imagem da página
 
-![Página Vinheria Agnello](image.png)
+![Página Vinheria Agnello](/src/assets/image.png)
 
 ## Observações:
 O segundo commit do Luis (79cacd8) foi um erro, foi enviado arquivos referentes ao primeiro commit, por isso o commit seguinte possui nome igual, pois nele foi enviado os arquivos corretos.

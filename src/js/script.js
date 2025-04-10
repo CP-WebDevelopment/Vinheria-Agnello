@@ -7,7 +7,7 @@ if (nome_vinho==""){
 console.log("Nome do vinho: ", nome_vinho)
 
 //TIPO DO VINHO
-var tipo_vinho= prompt("Digite o tipo do vinho (Tinto. Branco ou Rosê): ");
+var tipo_vinho= prompt("Digite o tipo do vinho (Tinto, Branco ou Rosê): ");
 if (tipo_vinho==""){
     alert("Tipo do vinho não inserido");
     var tipo_vinho= prompt("Digite o tipo do vinho: ");
