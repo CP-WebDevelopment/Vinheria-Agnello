@@ -4,9 +4,9 @@ Este repositório contém um projeto desenvolvido para a Vinheria Agnello, um si
 
 ## 🤝Integrantes
 
-Giovana Bernardino Carnevali 566196
-Anna Clara Ruggeri da Silva 565553
-Luis Gustavo Vasconcelos Costa 566023
+Giovana Bernardino Carnevali 566196  
+Anna Clara Ruggeri da Silva 565553  
+Luis Gustavo Vasconcelos Costa 566023  
 
 ## Passo 1 💻: Link do GitHub Pages
 
