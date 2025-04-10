@@ -7,7 +7,7 @@ if (nome_vinho==""){
 console.log("Nome do vinho: ", nome_vinho)
 
 //TIPO DO VINHO
-var tipo_vinho= prompt("Digite o tipo do vinho: ");
+var tipo_vinho= prompt("Digite o tipo do vinho (Tinto. Branco ou Rosê): ");
 if (tipo_vinho==""){
     alert("Tipo do vinho não inserido");
     var tipo_vinho= prompt("Digite o tipo do vinho: ");
@@ -30,20 +30,20 @@ if (qtd_vinho==""){
 }
 if (qtd_vinho<5){ //SE FOR MENOR QUE 5 EXIBIR O ALERT
     alert("Estoque baixo");
+    console.log("Estoque do vinho: ",qtd_vinho, "- Estoque baixo")
 }
-console.log("Estoque do vinho: ", qtd_vinho)
-alert("Cadastro realizado! Veja as informações no console.");
+else{
+    console.log("Estoque do vinho: ", qtd_vinho,"Estoque bom")
+}
+alert("Cadastro realizado! Veja as informações e confira a classificação no console. ");
 
 //CLASSIFICAÇÃO DA SAFRA
 if (safra_vinho>=2020){
-    alert("Vinho jovem");
     console.log("Safra vinho: ",safra_vinho,"Vinho jovem")
 }
 else if ((safra_vinho>=2015) && (safra_vinho<= 2019)){
-    alert("Vinho amadurecido");
     console.log("Safra vinho: ",safra_vinho,"Vinho amadurecido")
 }
 else{
-    alert("Vinho antigo");
     console.log("Safra vinho: ",safra_vinho,"Vinho antigo")
 }
