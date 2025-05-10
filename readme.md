@@ -10,7 +10,7 @@ Luis Gustavo Vasconcelos Costa 566023
 
 ## Passo 1 💻: Link do GitHub Pages
 
-https://cp1webdevelopment.github.io/Vinheria-Agnello/
+ https://cp-webdevelopment.github.io/Vinheria-Agnello/
 
 ## Passo 2 ✨: Imagem da página
 
